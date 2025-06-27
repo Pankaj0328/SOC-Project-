@@ -1,8 +1,8 @@
 # SOC-Project- A Voyage into LLMs: From Inception to Mastery - Midterm Report
 
-**Student:** Pankaj  
+**Student:** Pankaj Gurjar  
 **Department:** Chemical Engineering  
-**Institution:** IIT Bombay (Class of 2028)  
+**Roll No.:**  24b0328 
 **Project:** Summer of Code (SOC) - A Voyage into LLMs: From Inception to Mastery
 
 ## 📋 Project Overview
