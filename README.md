@@ -85,10 +85,10 @@ Implemented a comprehensive digit recognition system using PyTorch to classify h
 
 ```
 ├── README.md                 # This comprehensive project documentation
-├── Assignment.py            # MNIST digit recognition implementation
-├── Week1.py          # NumPy and Pandas fundamentals
-├── Week2.py      # Text processing and NLP concepts
-├── Week3-4.py # Neural network implementation examples
+├── Assignment.py             # MNIST digit recognition implementation
+├── Week1.py                  # NumPy and Pandas fundamentals
+├── Week2.py                  # Text processing and NLP concepts
+├── Week3-4.py                # Neural network implementation examples
 ```
 
 ## 📦 File Descriptions
