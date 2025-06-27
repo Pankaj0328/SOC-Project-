@@ -85,16 +85,15 @@ Implemented a comprehensive digit recognition system using PyTorch to classify h
 
 ```
 ├── README.md                 # This comprehensive project documentation
-├── assignment.py            # MNIST digit recognition implementation
-├── week1_basics.py          # NumPy and Pandas fundamentals
-├── week2_nlp_basics.py      # Text processing and NLP concepts
-├── week3-4_neural_networks.py # Neural network implementation examples
-└── docs/                    # Additional documentation (if needed)
+├── Assignment.py            # MNIST digit recognition implementation
+├── Week1.py          # NumPy and Pandas fundamentals
+├── Week2.py      # Text processing and NLP concepts
+├── Week3-4.py # Neural network implementation examples
 ```
 
 ## 📦 File Descriptions
 
-### `assignment.py`
+### `Assignment.py`
 Complete implementation of the MNIST digit recognition project including:
 - Data loading and preprocessing
 - Model architecture definition
@@ -102,20 +101,20 @@ Complete implementation of the MNIST digit recognition project including:
 - Testing and performance evaluation
 - Visualization of results
 
-### `week1_basics.py`
+### `Week1.py`
 Practical examples demonstrating:
 - NumPy array operations and mathematical computations
 - Pandas DataFrame manipulation and data analysis
 - Basic data visualization with Matplotlib
 
-### `week2_nlp_basics.py`
+### `Week2.py`
 Implementation of NLP fundamentals:
 - Text preprocessing pipelines
 - Tokenization and text cleaning
 - TF-IDF vectorization
 - Basic sentiment analysis
 
-### `week3-4_neural_networks.py`
+### `Week3-4.py`
 Neural network concepts and implementations:
 - Simple perceptron implementation
 - Basic feedforward network
@@ -153,7 +152,7 @@ Neural network concepts and implementations:
 - ReLU activation proved effective for this classification task
 - Adam optimizer outperformed SGD in convergence speed
 
-## 🔄 Next Steps (Weeks 4-8)
+## 🔄 Next Steps (Weeks 5-8)
 
 ### Upcoming Topics
 - **Week 5:** Attention mechanisms and their applications
@@ -169,7 +168,3 @@ Neural network concepts and implementations:
 
 
 
-## 📧 Contact
-
-- **Student:** Pankaj (Chemical Engineering, IIT Bombay 2028)
-- **Project Repository:** [GitHub Link - To be added]
