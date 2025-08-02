@@ -6,8 +6,8 @@
 **Project:** Summer of Code (SOC) - A Voyage into LLMs: From Inception to Mastery
 
 ## 📋 Project Overview
+This repository records my 8-week deep dive, moving from Python and basic data science into the architecture, theory, and code of Large Language Models (LLMs). The capstone achievement is a GPT-inspired autoregressive language model, coded entirely from scratch—demonstrating the inner workings powering modern generative AI.
 
-This repository documents my learning journey through the first half of an 8-week Summer of Code project focused on Large Language Models (LLMs) and Natural Language Processing (NLP). The project aims to provide a comprehensive understanding of LLMs and NLP fundamentals, starting from basic Python programming and progressing through neural networks to advanced language models.
 
 ## 🎯 Project Objectives
 
@@ -81,6 +81,60 @@ Implemented a comprehensive digit recognition system using PyTorch to classify h
 - Visualization of predictions with correctness indicators
 - Well-documented code with detailed comments
 
+Week 5: Attention Mechanisms and Visualization
+Topics Covered:
+Concept of attention in sequence models
+Additive vs. multiplicative (dot-product) attention
+Scaled dot-product attention formula
+Visualizing attention weights on sample sentences
+
+Key Skills Acquired:
+Implementing attention layers from first principles
+Visualizing alignment matrices for interpretability
+Integrating attention into RNN-based sequence-to-sequence models
+
+Week 6: Transformer Architecture and Hugging Face Integration
+Topics Covered:
+Architecture of the Transformer (encoder and decoder blocks)
+Multi-head attention, positional encodings
+Layer normalization and residual connections
+Introduction to Hugging Face transformers library
+
+Key Skills Acquired:
+Building Transformer encoder and decoder layers in PyTorch
+Loading pre-trained models (e.g., bert-base-uncased, gpt2)
+Tokenization and pipeline APIs for inference
+
+Week 7: Fine-Tuning, RAG, and LangChain
+Topics Covered:
+Fine-tuning pre-trained LLMs on custom datasets
+Retrieval-Augmented Generation (RAG) concepts
+Building simple document retrievers with FAISS
+Introduction to LangChain for chaining LLM calls
+
+Key Skills Acquired:
+Designing training loops to fine-tune GPT-2 on dialogue data
+Implementing a FAISS index for efficient document retrieval
+Composing LangChain chains (LLM + retriever + prompt template)
+
+Week 8: Final Project Implementation and Presentation
+Topics Covered:
+End-to-end GPT-from-scratch design
+Training custom tokenizer and vocabulary
+Transformer training loops and checkpointing
+Model evaluation and deployment considerations
+
+Key Skills Acquired:
+Implementing Byte-Pair Encoding (BPE) tokenizer
+Writing efficient data loaders and batching strategies
+Monitoring training with TensorBoard
+Exporting and serving models as REST APIs
+Capstone Project: "Build a GPT from Scratch"
+Completed architecture implementation through Week 8
+Trained on a sample corpus of programming Q&A
+Achieved coherent code-completion demos
+
+
 ## 📁 Repository Structure
 
 ```
@@ -89,6 +143,10 @@ Implemented a comprehensive digit recognition system using PyTorch to classify h
 ├── Week1.py                  # NumPy and Pandas fundamentals
 ├── Week2.py                  # Text processing and NLP concepts
 ├── Week3-4.py                # Neural network implementation examples
+├── Week5                     # Attention mechanisms and visualizations
+├── Week6                     # Transformer layers and Hugging Face integration
+├── Week7                     # RAG and LangChain prototypes
+├── Week8                     # GPT-from-scratch implementation
 ```
 
 ## 📦 File Descriptions
@@ -119,7 +177,14 @@ Neural network concepts and implementations:
 - Simple perceptron implementation
 - Basic feedforward network
 - Gradient descent demonstration
-
+### 'Week8.py'
+Complete GPT-style language model built from scratch:
+Tokenizer training with Byte-Pair Encoding (BPE)
+Positional encoding and multi-head self-attention
+Transformer blocks with residual connections
+Causal masking for autoregressive text generation
+Custom dataset loading, batching, and training loop
+Final evaluation and inference interface
 
 
 ## 🎓 Learning Outcomes
@@ -152,19 +217,7 @@ Neural network concepts and implementations:
 - ReLU activation proved effective for this classification task
 - Adam optimizer outperformed SGD in convergence speed
 
-## 🔄 Next Steps (Weeks 5-8)
 
-### Upcoming Topics
-- **Week 5:** Attention mechanisms and their applications
-- **Week 6:** Transformer architecture and Hugging Face integration
-- **Week 7:** Fine-tuning pre-trained models, RAG, and LangChain
-- **Week 8:** Final project implementation and presentation
-
-### Planned Enhancements
-- Implement sequence-to-sequence models
-- Explore pre-trained language models
-- Build practical NLP applications
-- Develop understanding of modern LLM architectures
 
 
 
