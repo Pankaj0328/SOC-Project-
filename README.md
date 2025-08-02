@@ -177,7 +177,7 @@ Neural network concepts and implementations:
 - Simple perceptron implementation
 - Basic feedforward network
 - Gradient descent demonstration
-### 'Week8.py'
+### 'SOC Final Project - GPT from Scratch.py'
 Complete GPT-style language model built from scratch:
 Tokenizer training with Byte-Pair Encoding (BPE)
 Positional encoding and multi-head self-attention
