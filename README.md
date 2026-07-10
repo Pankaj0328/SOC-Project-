@@ -1,4 +1,4 @@
-# SOC-Project- A Voyage into LLMs: From Inception to Mastery - Midterm Report
+# SOC-Project- A Voyage into LLMs: From Inception to Mastery - Report
 
 **Student:** Pankaj Gurjar  
 **Department:** Chemical Engineering  
